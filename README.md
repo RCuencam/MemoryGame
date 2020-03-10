@@ -1,4 +1,3 @@
-# PokeAPI
-Mostrador de pokemones mediante https://pokeapi.co/
+# Memory Game
 
-### LINK: https://rcuencam.github.io/PokeAPI/
+### LINK: https://rcuencam.github.io/MemoryGame/
