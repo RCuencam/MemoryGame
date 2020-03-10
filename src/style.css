@@ -1,0 +1,68 @@
+body
+{
+    background: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container
+{
+    width: 450px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.container button
+{
+    padding: 1em;
+    background: white;
+    border: 0;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+}
+.container button:active
+{
+    transform: scale(.9);
+}
+.game
+{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cuadrado
+{
+    width: 180px;
+    height: 180px;
+    margin: 10px;
+    border-radius: 10px;
+    filter: brightness(50%);
+}
+.light
+{
+    filter: brightness(100%);
+    transform:scale(1.1)
+}
+#red
+{
+    background: red;
+}
+#yellow
+{
+    background: yellow;
+}
+#green
+{
+    background: green;
+}
+#blue
+{
+    background: blue;
+}
